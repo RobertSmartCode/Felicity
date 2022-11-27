@@ -1,0 +1,14 @@
+.carrusel{
+    background-color: #edd4e6; 
+}
+.cuerpo{
+   
+    /* background-image: url("/banner.jpg"); */
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    margin-top: 2rem;
+    width: 1600;
+    height: 340;
+    border: 1px solid #edd4e6;
+}

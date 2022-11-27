@@ -1,0 +1,11 @@
+.carrusel{
+    background-color: #edd4e6; 
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 0;
+    width: 2000;
+    height: 700;
+    border: 1px solid #edd4e6;
+}
