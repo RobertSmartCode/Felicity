@@ -63,3 +63,16 @@
     border: 1px solid pink;
     box-shadow: 30px 10px 20px 1px pink;
 }
+
+.categorias{
+  color: black;
+  font-size: 12px;
+  line-height: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  right: 50px;
+  
+}

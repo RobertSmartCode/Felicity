@@ -1,7 +1,6 @@
 import styles from '../styles/Navbar.module.css'
 import { IoSearchOutline } from 'react-icons/io5'
 import { GoLocation } from 'react-icons/go'
-import { BsChevronDown } from 'react-icons/bs'
 import { BiGift } from 'react-icons/bi'
 import { AiOutlineMenu, AiOutlineShoppingCart } from 'react-icons/ai'
 import Image from "next/image"
@@ -54,16 +53,13 @@ export default function Navbar()  {
 							</div>
 						</div>
 						<div>
-						<ul className="nav-menu-categories w-3/6 mt-2 mr-3 flex gap-6 items-end text-sm text-tiny font-light">
-							<li className="flex items-center gap-1">
-							Categorias
-								<BsChevronDown />
-							</li>
-							<li>Ofertas</li>
-							<li>Historial</li>
-							<li>Moda</li>
-							<li>Vender</li>
-							<li>Ayuda</li>
+						<ul className={styles.categorias}>
+							<li>Bebé Niña</li>
+							<li>Bebé Niño</li>
+							<li>Niña</li>
+							<li>Niño</li>
+							<li>OUTLET</li>
+							<li>Acesorios</li>
 						</ul>
 						</div>
 						<div>
